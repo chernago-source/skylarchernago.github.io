@@ -59,7 +59,7 @@ nav a:hover {
 /* Gallery */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   gap: 20px;
   padding: 20px;
 }
@@ -68,6 +68,16 @@ nav a:hover {
   width: 100%;
   height: auto;
   border-radius: 6px;
+
+  .gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Tablet/Desktop */
+@media screen and (min-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Content */
@@ -109,13 +119,7 @@ footer {
   grid-template-columns: 1fr;
 }
 
-/* Tablet/Desktop */
-@media screen and (min-width: 600px) {
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
 
-}
 
 
 
