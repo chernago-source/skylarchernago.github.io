@@ -68,6 +68,7 @@ nav a:hover {
   width: 100%;
   height: auto;
   border-radius: 6px;
+}
 
   .gallery img:hover {
     transform: scale(1.05);
