@@ -65,7 +65,7 @@ nav a:hover {
 }
 
 .gallery img {
-  width: 100%;
+  width: 50%;
   height: auto;
   border-radius: 6px;
 }
