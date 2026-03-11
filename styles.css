@@ -9,7 +9,7 @@ body, header, nav, main, footer, h1, h2, p, ul, li {
 /* Body */
 body {
   font-family: Arial, sans-serif;
-  backgroud: #f4f4f4;
+  background: #f4f4f4;
   line-height: 1.6;
 }
 
@@ -59,13 +59,13 @@ nav a:hover {
 /* Gallery */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(2, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   padding: 20px;
 }
 
 .gallery img {
-  width: 50%;
+  width: 100%;
   height: auto;
   border-radius: 6px;
 }
